@@ -7,6 +7,10 @@ body {
   background-image: url("../imgs/ignasi_pattern_s.png");
 }
 
+#header {
+  background-color: #f5e8ac;
+}
+
 html {
   /* Positioning */
   position: relative;
@@ -30,7 +34,7 @@ main {
 
  .main-header {
   /* Typography */
-  color: #4aaaa5;
+  color: #2E4432;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 
@@ -46,13 +50,13 @@ main {
   color: #fff;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #2E4432;
   padding: 20px 60px;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #2E4432;
 }
 
 .navbar {
@@ -90,12 +94,12 @@ main {
 /* BEGIN FOOTER */
 .footer {
   /* Visual */
-  background-color: #666;
+  background-color: #2E4432;
 }
 
 .two-toned-footer-color {
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #8EB7D1;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -111,7 +115,7 @@ main {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #2E4432;
 }
 
 #about-image {
@@ -136,7 +140,7 @@ p {
 }
 
 .portfolio-text {
-  background-color: #59AAA5;
+  background-color: #2E4432;
   bottom: 90px;
   color: #eeeeee;
   padding: 15px;
@@ -166,7 +170,7 @@ p {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #2E4432;
   border: 0;
 }
 
