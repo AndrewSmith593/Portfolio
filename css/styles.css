@@ -24,13 +24,47 @@
     padding: 5px 0px;
     margin: 5px auto;
     position: relative;
-    bottom: 50px;
+    bottom: 75px;
     
+}
+
+.githublink {
+    background-color: #04c4c7;
+    color: white;
+    border-radius: 18px;
+    padding: 5px;
+    margin: auto;
+    position: relative;
+    bottom: 75px;
+    left: 30px;
+
 }
 
 .portfolio-link {
     text-align: center;
 }
+
+.purpleBox span {
+    color: white;
+    background-color: #3b2685;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 5px auto;
+}
+
+.purpleBox {
+    color: white;
+    background-color: #3b2685;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 5px auto;
+}
+
+#resumelink {
+    font-size: 30px;
+}
+
+
 /* 
 #herocraft {
     background-image: url("../img/herocraft.png"); 
