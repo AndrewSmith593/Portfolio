@@ -28,16 +28,25 @@
     
 }
 
+.portfolioimg {
+    /* position: relative; */
+    width: 100%;
+}
+
 .githublink {
     background-color: #04c4c7;
     color: white;
     border-radius: 18px;
     padding: 5px;
-    margin: auto;
+    margin: 5px, auto;
     position: relative;
     bottom: 75px;
-    left: 30px;
+    text-align: center;
 
+}
+
+.portfolio-column {
+    text-align: center
 }
 
 .portfolio-link {
@@ -70,8 +79,37 @@
     bottom: 65px;
     left: 5px;
     padding: 0px 20px;
+    text-align: left;
 
 }
+
+.portfolioboxes {
+    text-align: center;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  @media (min-width: 576px) {
+       
+.portfolio-column {
+    padding: 0px, 5px, 5px, 0px;
+}
+
+}
+
+@media (min-width: 768px) {
+       
+    .portfolio-column {
+        padding: 0px, 5px, 5px, 0px;
+    }
+    
+    }
+
 
 /* 
 #herocraft {
