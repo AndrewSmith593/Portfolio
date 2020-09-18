@@ -12,38 +12,39 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body style="background: linear-gradient(#3b2685 6%, #04c4c7 12%);background-color: #04c4c7;color: #f2f5f8;">
+<body style="background: white;background-color:white;color:black;">
     <script>
         document.getElementById("herocraft").innerHTML = "Hello JavaScript!";
         </script>
+        
     <nav class="navbar navbar-light navbar-expand-md navigation-clean mb-5"
-        style="background-color: #3b2685;color: #ffe9e9;">
+        style="background-color: white;color: black;">
         <div class="container"><a class="navbar-brand" href="#">Andrew Smith // Web Developer</a><button
                 data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only"
                     style="color: white;">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1" style="text-shadow: 0px 0px;">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#about"
-                            style="color: #ffe9e9;">About</a></li>
+                            style="color: black;">About</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#portfolio"
-                            style="color: #ffe9e9;">Portfolio</a></li>
+                            style="color: black;">Portfolio</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#contact"
-                            style="color: #ffe9e9;">Contact</a></li>
+                            style="color: black;">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <header>
-        <div class="container" style="padding: 0px 0px 0px 0px;"><img class="img-fluid d-block mx-auto mb-5"
-                style="background: url(img/circle-cropped.png);background-size: contain;width: 200px;height: 200px;">
-            <h1 style="text-align: center;border-color: #f2f5f8;color: #f2f5f8;">Andrew Smith</h1>
+        <div class="container" style="padding: 0px 0px 0px 0px;"><img id="portraitpic" class="img-fluid d-block mx-auto mb-5"
+                style="background: url(img/square.png);background-size: contain;width: 200px;height: 200px;border-radius:50%">
+            <h1 style="text-align: center;border-color: #f2f5f8;color: black;">Andrew Smith</h1>
 
-            <h1 style="text-align: center;margin: 30px;color: #f2f5f8;">Web Developer - Full Stack</h1>
+            <h1 style="text-align: center;margin: 30px;color: black;">Full Stack Web Developer</h1>
         </div>
     </header>
-                <hr style="border-color: #3b2685;">
+                <hr style="border-color: black; width: 75%">
     <section id="portfolio" class="portfolio"
-        style="background: linear-gradient(#04c4c7 6%, white 100%);background-color: #ffe9e9;">
+        style="background: white;background-color: white;">
         <div class="container" style="margin: auto;padding: 0px;">
             <h2 id="portfolio" class="text-center mt-5" style="margin: 15px;margin-top: 0px;padding: 10px;">Portfolio
             </h2>
@@ -103,7 +104,7 @@
                     </div>
             </div>
             <div class="row justify-content-center">
-                <div class="ortfolio-column col-12 col-md-6 col-lg-4 col-sm-12 justify-content-center portfolioboxes">
+                <div class="portfolio-column col-12 col-md-6 col-lg-4 col-sm-12 justify-content-center portfolioboxes">
                     
                     <!-- <img class="img-fluid"
                         src="img/rtpic.png" border-color: rgb(15,110,204);"> -->
@@ -125,7 +126,7 @@
                         <a href="https://vast-shore-64434.herokuapp.com/" target="_blank">
                             
                             <img class="portfolioimg" src="./img/notetpic.png" />
-                            <p class="portfolio-text text-center position-relative">Note Taker</p>
+                            <p class="portfolio-text text-center position-relative">NoteTaker</p>
                         </a>
                         <a class="githublink text-center " href="https://github.com/AndrewCodesDontYaKnow/Note_TakerV2">Github Repo</a>
                         <p class="projectDescription"><strong>Description:</strong> A simple note taking app to help users stay organized, make lists, or remember important things.</p>
@@ -134,33 +135,42 @@
             </div>
         </div>
     </section>
-    <section style="padding-top: 72px;background: linear-gradient(#ffffff 11%, #3b2685 36%);">
-        <div class="row">
+    <section style="padding-top: 0px;background: white;">
+        <!-- <div class="row">
             <div class="col" style="margin-bottom: 67px;">
                 <p></p>
             </div>
-        </div>
+        </div> -->
+        
         <div class="container">
-            <h2 id="about" style="text-align: center;padding: 10px;padding-bottom: -10px;">About</h2>
+            <h2 id="about" style="text-align: center;padding: 10px;">About</h2>
             <!-- <hr> -->
             <div class="row">
                 <div class="col">
-                    <p>Front-end web developer leveraging a client-interfacing sound design background to build a more intuitive user experience on the web. Recently earned a certificate in full stack web development from Trilogy Bootcamp at the University of Minnesota, with newly developed skills including JavaScript, the MERN stack, SQL, and more. A proactive communicator seeking clarity in all things, with infectious optimism who stays calm under pressure. 
-                        <br/><br/>
-                        Known by peers as a creative problem solver, I’m passionate about learning and honing new skills to apply in development. With each project, my aim is to create an impactful experience through user-centric functionality and features. Recently I applied aspects of UX, database structure, and API routing to a MERN stack project. I worked on a team of four to develop a robust app that helps Dungeons & Dragons players create, store, and edit game characters, viewable on a dynamic character sheet. I’m excited to leverage my skills as part of a highly-communicative, quality-driven team to build better experiences on the web. </p>
+                    <p>Hello World! I'm a Full Stack Web Developer leveraging background in sound design and life-long dedication to learning. A University of Minnesota School of continuing studies grad, I have a robust set of skills that range from UI to database maintenance. I'm well-versed in thinking outside the box, and providing novel solutions to problems in developing applications that give users a responsive, discoverable environment. I stay focused on providing reasons for users to return.
+                    </p>
+                  
+                    <p>
+                        I'm a proactive communicator seeking clarity in all things, with infectious optimism that keeps the group attitude positive. Known as a creative problem solver, I’m passionate about learning and honing new skills to add to my arsenal, and make new things with. I’m excited to leverage my skills as part of a highly-communicative, quality-driven team to build better experiences on the web. 
+
+                        When I'm not coding, I enjoy cooking and baking bread, training for and running marathons, and playing music.
+                    </p>
+
+
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="8707e096-7fef-4396-a4e8-38e93952710f" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
                 </div>
 
             </div>
-            <div style="text-align: center;border-width: 1px;border-color: rgb(8,112,215);"></div>
+            <div style="text-align: center;border-width: 1px;border-color:black;"></div>
         </div>
     </section>
-    <section style="background: linear-gradient(#3b2685 9%, white 85%);background-color: #ffe9e9;">
+    <section style="background: white;background-color:white;">
         <div class="container">
             <h2 id="contact" style="text-align: center;padding: 10px;">Resume</h2>
 
             <div class="row">
                 <div class="col">
-                    <a id="resumelink" class="purpleBox m-auto" href="https://drive.google.com/file/d/1PlUrU4AwaDKnfD9nhblfA9Y8aW0FGFX9/view?usp=sharing">View PDF Here</a>
+                    <a id="resumelink" class="m-auto" href="https://drive.google.com/file/d/1PlUrU4AwaDKnfD9nhblfA9Y8aW0FGFX9/view?usp=sharing">View Resume PDF</a>
                 </div>
             </div>
         </div>
@@ -169,7 +179,7 @@
 
             <div class="row">
                 <div class="col">
-                    <p class="purpleBox"><strong>Email:</strong> andrewsmith593@gmail.com<br/><strong>Phone:</strong> (952)-451-7766</p>
+                    <p class=""><strong>Email:</strong> andrewsmith593@gmail.com<br/><strong>Phone:</strong> (952)-451-7766</p>
                 </div>
             </div>
         </div>
@@ -179,7 +189,7 @@
             </div>
         </div>
     </section>
-    <footer style="background: linear-gradient(#ffffff 16%, #30c4c7 27%);">
+    <footer style="background: white;">
         <div class="container">
             <div class="row justify-content-center"
                 style="padding: 10px;text-align: left;padding-top: 55px;padding-bottom: -13px;">
@@ -192,10 +202,10 @@
                     <p>Minneapolis, Minnesota</p>
                     <ul class="list-inline">
                         <li class="list-inline-item"><a
-                            class="btn btn-outline-light btn-social text-center rounded-circle" role="button"
+                            class="btn btn-outline-dark btn-social text-center rounded-circle" role="button"
                             href="https://www.linkedin.com/in/andrew-smith-6981b32b/"><i class="fa fa-linkedin fa-fw"></i></a></li>
                         <li class="list-inline-item"><a
-                                class="btn btn-outline-light btn-social text-center rounded-circle" role="button"
+                                class="btn btn-outline-dark btn-social text-center rounded-circle" role="button"
                                 href="https://www.facebook.com/andrewsmithmusic"><i class="fa fa-facebook fa-fw"></i></a></li>
                     </ul>
                 </div>
@@ -203,11 +213,11 @@
         </div>
     </footer>
     <div class="justify-content-center copyright py-4 text-center text-white"
-        style="background: linear-gradient(#30c4c7 20%, #3b2685 42%);background-color: #3b2685;padding-top: 16px;">
-        <div class="container" style="background-color: rgba(59,38,133,0);margin: 0px;"><small>Copyright ©&nbsp;Andrew
+        style="background: white;background-color: black;padding-top: 16px;">
+        <div class="container" style="background-color: rgba(59,38,133,0);"><small>Copyright ©&nbsp;Andrew
                 Smith // Web Developer 2020</small></div>
     </div>
-
+    
     <script src="js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/bs-init.js"></script>
