@@ -1,135 +1,94 @@
-/* .projectbutton { 
-
-    background-size: cover; 
-    width: 345px; 
-    height: 277px; 
-    font-size: 2rem;
-    color: white;
-    padding-top: 200px;
-    text-shadow: 2px 2px 8px #3b2685;
-}  */
+.portfolio-text {
+  color: white;
+  background-color: black;
+  border-radius: 18px;
+  width: 250px;
+  padding: 5px 0px;
+  margin: 5px auto;
+  position: relative;
+  bottom: 75px;
+}
 
 .portfolio-pic {
-    /* transform: translateX(-50%);
-    left: 50%;
-    position: absolute; */
-    text-align: center;
+  width: 350px;
+  height: 200px;
 }
-
-.portfolio-text {
-    color: white;
-    background-color: black;
-    border-radius: 18px;
-    width: 250px;
-    padding: 5px 0px;
-    margin: 5px auto;
-    position: relative;
-    bottom: 75px;
-    
-}
-
-
 
 .portfolioimg {
-    /* position: relative; */
-    width: 100%;
+  /* position: relative; */
+  width: 100%;
+}
+
+.calcpic {
+    height: 285px;
 }
 
 .githublink {
-    background-color: black;
-    color: white;
-    border-radius: 18px;
-    padding: 5px;
-    margin: 5px, auto;
-    position: relative;
-    bottom: 75px;
-    text-align: center;
-
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+  padding: 5px;
+  margin: 5px, auto;
+  position: relative;
+  bottom: 75px;
+  text-align: center;
 }
 
 .portfolio-column {
-    text-align: center
+  text-align: center;
+  width: 350px;
 }
 
 .portfolio-link {
-    text-align: center;
+  text-align: center;
 }
 
 .purpleBox span {
-    color: white;
-    background-color: #3b2685;
-    border-radius: 18px;
-    padding: 8px;
-    margin: 5px auto;
+  color: white;
+  background-color: #3b2685;
+  border-radius: 18px;
+  padding: 8px;
+  margin: 5px auto;
 }
 
 .purpleBox {
-    color: white;
-    background-color: #3b2685;
-    border-radius: 18px;
-    padding: 8px;
-    margin: 5px auto;
+  color: white;
+  background-color: #3b2685;
+  border-radius: 18px;
+  padding: 8px;
+  margin: 5px auto;
 }
 
 #resumelink {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .projectDescription {
-    color: black;
-    position: relative;
-    bottom: 65px;
-    left: 5px;
-    padding: 0px 20px;
-    text-align: left;
-
+  color: black;
+  position: relative;
+  bottom: 65px;
+  left: 5px;
+  padding: 0px 20px;
+  text-align: left;
 }
 
 .portfolioboxes {
-    text-align: center;
+  text-align: center;
 }
 
-
-/* Create four equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 25%;
-  }
-  
-  @media (min-width: 576px) {
-       
-.portfolio-column {
-    padding: 0px, 5px, 5px, 0px;
+  float: left;
+  width: 25%;
 }
 
+@media (min-width: 576px) {
+  .portfolio-column {
+    padding: 0px, 5px, 5px, 0px;
+  }
 }
 
 @media (min-width: 768px) {
-       
-    .portfolio-column {
-        padding: 0px, 5px, 5px, 0px;
-    }
-    
-    }
-
-
-/* 
-#herocraft {
-    background-image: url("../img/herocraft.png"); 
+  .portfolio-column {
+    padding: 0px, 5px, 5px, 0px;
+  }
 }
-
-#roadtrippr {
-    background-image: url("../img/rtpic.png"); 
-}
-
-#nintracker {
-    background-image: url("../img/ntpic.png"); 
-}
-
-#weatherdash {
-    background-image: url("../img/wtpic.png"); 
-}
-
-#notetaker {
-    background-image: url("../img/notetpic.png"); 
-} */
