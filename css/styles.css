@@ -5,12 +5,107 @@
   width: 250px;
   padding: 5px 0px;
   margin: 5px auto;
-  position: relative;
-  bottom: 75px;
+  /* position: relative; */
+  /* bottom: 75px; */
+  width: 100%;
 }
 
-.portfolio-pic {
+.challenges-text {
+  color: white;
+  background-color: black;
+  border-radius: 18px;
+  width: 250px;
+  padding: 5px 0px;
+  margin: 5px auto;
+  /* position: relative; */
+  /* bottom: 75px; */
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* .parent {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  grid-template-rows: 2fr 100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+
+  }
+
+.parent > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+  justify-content: space-between;
+  align-self: center;
   width: 350px;
+  margin: 5px;
+
+} */
+
+
+/* .portfolio-pic {
+  width: 350px;
+  height: 200px;
+} */
+
+.card:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  object-fit: cover;
   height: 200px;
 }
 
@@ -19,9 +114,14 @@
   width: 100%;
 }
 
+.row > .column {
+  margin-bottom: 10px;
+}
+
+/* 
 .calcpic {
     height: 285px;
-}
+} */
 
 .githublink {
   background-color: black;
@@ -30,8 +130,11 @@
   padding: 5px;
   margin: 5px, auto;
   position: relative;
-  bottom: 75px;
+  /* bottom: 75px; */
   text-align: center;
+  justify-content: center;
+  width: 80%;
+  
 }
 
 .portfolio-column {
@@ -43,13 +146,13 @@
   text-align: center;
 }
 
-.purpleBox span {
+/* .purpleBox span {
   color: white;
   background-color: #3b2685;
   border-radius: 18px;
   padding: 8px;
   margin: 5px auto;
-}
+} */
 
 .purpleBox {
   color: white;
@@ -63,24 +166,24 @@
   font-size: 30px;
 }
 
-.projectDescription {
+/* .projectDescription {
   color: black;
   position: relative;
   bottom: 65px;
   left: 5px;
   padding: 0px 20px;
   text-align: left;
-}
+} */
 
-.portfolioboxes {
+/* .portfolioboxes {
   text-align: center;
 }
 
 .column {
   float: left;
   width: 25%;
-}
-
+} */
+/* 
 @media (min-width: 576px) {
   .portfolio-column {
     padding: 0px, 5px, 5px, 0px;
@@ -91,4 +194,4 @@
   .portfolio-column {
     padding: 0px, 5px, 5px, 0px;
   }
-}
+} */
